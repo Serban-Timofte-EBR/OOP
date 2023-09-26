@@ -1,0 +1,3 @@
+/Users/serbantimofte/Documents/Codes /OOP/Week1/cmake-build-debug/CMakeFiles/Week1.dir
+/Users/serbantimofte/Documents/Codes /OOP/Week1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/serbantimofte/Documents/Codes /OOP/Week1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
