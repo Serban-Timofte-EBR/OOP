@@ -1,0 +1,69 @@
+Recap: 
+
+    0. Mediu de programare:
+        -> Visual Studio
+        -> Create New Project -> Empty Project C++ -> Add CPP source in last folder
+
+    1. Erori:
+        1.1 Compilare
+            : de editare gresita a codului
+            : use build/rebuild
+        1.2 Executie
+            : Genrate de greseli logice
+            : De regula, cauzate de gestionarea gresita a memoriei 
+
+    2. Etape program:
+            : Compilare -> Link Editare -> Executie
+    
+
+    !! Dezavantaj: C++ nu este cross - plaftorm, ci este dependend de hardware
+
+    3. Pointeri
+        : Retine o adresa de memoriei a altei variabile ( important este si tipul de data )
+        : Trebuie initializat cu nullptr pentru a evita preluarea valorilor reziduale 
+    
+    4. Tipuri de memorie C++
+        
+        : La executie se porneste un proces care are alocata o zona de memorie
+        : Aceasta zona de memorie este impartita in 2 parti:
+
+            : Stack
+                : Variabile locale
+                : Parametrii functii
+                : Return address
+                : Return value
+                : Variabilele dealocate dinamic
+
+            : Heap
+                : Variabile dinamice
+                : Alocate la runtime
+                : Trebuie sa fie eliberate de programator
+                : Daca nu sunt eliberate, se produce memory leak
+                : Daca se incearca accesarea unei zone de memorie care nu este alocata, se produce segmentation fault
+
+            : Stack over Heap => Stack Overflow
+
+    5. Unde salvam pointerii? 
+        : Depinde, in ambele
+        : Heap -> Alocarea dinamica a unei matricii ( linii in heap - pointer la pointer )
+        : Stack -> Un pointer declarat in main
+
+Curs 02:
+
+    1. Ponterii 
+        : de regula sunt salvati in stack, dar pot fi salvati si in heap
+!!!     : ocupa 4 bytes indifierent de tipul de data pe 32 de biti ( 8 pentru 64 de biti )
+        : casa este valoarea, iar numarul casei este adresa ( pointam adresa de la o casa ca sa ajungem la casa )
+        
+        --- Declarare pointeri / Operatii Basic ---
+        
+        : int* p = &x -> in pointerul p se salveaza adresa lui x
+        : &p -> adresa pointerului p
+        : * -> operator de referentiere ( dereferentiere )
+        
+
+        --- Operatii cu pointeri ---
+
+        : tipul de date pentru pointeri conteaza pentru a sti cati bytes sa citeasca la adresa din memorie
+        : Incrementarea pointerilor -> p++ -> se incrementeaza cu 4 bytes ( 8 pe 64 de biti ) 
+        : Decrementarea pointerilor -> p-- -> se decrementeaza cu 4 bytes ( 8 pe 64 de biti )
