@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -40,6 +41,10 @@ int main() {
 	cout << endl << "Adresa este: " << adresa;
 
 	delete[] adresa;
+
+	string numeStudent = "Gigel";
+	numeStudent += "Ionel";
+	numeStudent = "Ion";
 
 	return 0;
 }
