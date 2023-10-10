@@ -67,3 +67,40 @@ Curs 02:
         : tipul de date pentru pointeri conteaza pentru a sti cati bytes sa citeasca la adresa din memorie
         : Incrementarea pointerilor -> p++ -> se incrementeaza cu 4 bytes ( 8 pe 64 de biti ) 
         : Decrementarea pointerilor -> p-- -> se decrementeaza cu 4 bytes ( 8 pe 64 de biti )
+        : Adunarea a doi pointeri nu merge pentru ca ar putea rezulta o adresa din afara adresei
+
+
+    2. Identificatorul const in cazul pointerilor
+        
+        2.1 Pointeri const
+            : int* const p = &x -> pointerul p este constant, nu poate fi modificat
+            : p++ -> eroare
+            : *p = 10 -> se poate modifica valoarea de la adresa lui x
+
+        2.2 Valoare const
+            : const int* p = &x -> valoarea de la adresa lui x este constanta, nu poate fi modificata
+            : p++ -> se poate modifica adresa
+            : *p = 10 -> eroare
+
+        2.3  Pointeri const cu valoare const
+            : const int* const p = &x -> pointerul p este constant, nu poate fi modificat
+            : p++ -> eroare
+            : *p = 10 -> eroare
+
+    3. Referinta
+
+    int& r;
+
+    4. Pointerul "la orice"
+        : void* t
+        : malloc returneaza void* 
+        : De ce returneaza void* ? 
+            : Pentru ca nu stie ce tip de date va fi alocat
+            : Nu stie cati bytes sa aloce
+        : Nu se poate dereferentia? 
+            : Nu se poate pentru ca nu stie ce tip de date este salvat la adresa respectiva
+            : Nu stie cati bytes sa citeasca
+        : Se poate face cast la orice tip de date
+            : int* p = (int*)malloc(sizeof(int));
+            : *p = 10;
+            : free(p);    

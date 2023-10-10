@@ -1,0 +1,9 @@
+-> Fara teste unitare
+    : assignment.h -> Deschid empty project si iau .h in source -> Definesc main si il includ
+    :Empty project -> .h file cu contentul dat -> Rulez in main
+
+-> Teste unitare
+    :Native Unit Test Project -> assignment1.h in header files -> in UniteTest.cpp se preia assignment1.cpp 
+    :Rulat teste -> View - Test Explorer -> Run All
+
+-> Se poate modifica doar corpul functiei din assignment1.h
