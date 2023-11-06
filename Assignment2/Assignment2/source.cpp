@@ -62,10 +62,11 @@ public:
 	Those are: 5 - petrol, 10 - hybrid, 15 - electric the function receives one parameter which is a string from the ones above
 	("petrol", "hybrid", "electric") and returns the enum value*/
 
-	static VehicleType getStandarType(string type) {
-		if (type == "petrol") { return (VehicleType)5; }
-		else if (type == "hybrid") { return (VehicleType)10; }
-		else if (type == "electric") { return (VehicleType)15; }
+	static VehicleType getStandardType(string type) {
+		if (type == "petrol") { return VehicleType::petrol; }
+		else if (type == "hybrid") { return VehicleType::hybrid; }
+		else if (type == "electric") { return VehicleType::electric; }
+		return VehicleType::petrol;
 	}
 
 	/* Requirement 5. The function below return a variable of type enum (VehicleType, the enum defined above)
