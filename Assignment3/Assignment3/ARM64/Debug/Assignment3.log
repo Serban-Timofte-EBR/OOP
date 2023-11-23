@@ -1,0 +1,7 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\Assignment3\Assignment3\main.cpp(95,39): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\Assignment3\Assignment3\main.cpp(119,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\Assignment3\Assignment3\main.cpp(155,34): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\Assignment3\Assignment3\main.cpp(217,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\Assignment3\Assignment3\main.cpp(389,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Assignment3.vcxproj -> \\Mac\Home\Documents\Codes\OOP\Assignment3\ARM64\Debug\Assignment3.exe

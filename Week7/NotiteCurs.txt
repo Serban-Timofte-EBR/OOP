@@ -1,0 +1,30 @@
+1. Compunerea claselor:
+    - Relatie "has a"
+    - Definirea unei clase intr-o clasa este compunere, dar este mai ales INCLUDERE
+    - INCLUDERE = clasa are sens doar in clasa in care este construita
+    - Derivare: is a?
+
+2. Fisiere Header:
+    - file .h doar cu declararea
+    - file .cpp cu implementarea out of the class
+    - file main.cpp
+
+    - In VS: Add -> C++ Class si defineste 
+    - h: int nivelBaterie && void incarca(int nivelBaterie) (setez public sau private de aici)
+    - {class}.cpp: void TelefonMobil::incarca(int nivelBaterie) {}
+
+3. Supraincarcarea:
+    - Prima forma de polimorfism (slab) <= se intampla la compilare
+    - void incarca(int nivelBaterie) || void incarca(int niveBaterie, int nivelMaxim) || un operator prin tip diferit
+    - Cum compileaza void incarcare(int param)? - Cauta Functia
+                                                - Nu gaseste, cauta void incarcare(float/double/etc param) - prin conversii nedregadante
+                                                - Nu gaseste, cauta dupa conversii degradante din float in int
+                                                - Nu gaseste, cauta dupa cast
+                                                - Daca sunt mai multe functii => eroare de link editare
+    - Se utilizeaza cel mai des la constructori si Operatorilor
+
+4. Supraincarcarea Operatorilor:
+    - DEFINIRE: operator<semn_grafic> 
+    - 2 variante de supraincarcare (metoda sau functie globala)
+    - . *. :: ?: sizeof() -> nu se pot supraincarca
+    - PROIECT: Pot face ordinea efectuarii operatiilor prin supraincarcarea operatorilor???
