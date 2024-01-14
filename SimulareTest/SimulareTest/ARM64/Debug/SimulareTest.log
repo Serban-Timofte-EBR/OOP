@@ -1,0 +1,4 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\SimulareTest\SimulareTest\main.cpp(153,34): warning C4305: 'initializing': truncation from 'double' to 'float'
+\\Mac\Home\Documents\Codes\OOP\SimulareTest\SimulareTest\main.cpp(153,40): warning C4305: 'initializing': truncation from 'double' to 'float'
+  SimulareTest.vcxproj -> \\Mac\Home\Documents\Codes\OOP\SimulareTest\ARM64\Debug\SimulareTest.exe
