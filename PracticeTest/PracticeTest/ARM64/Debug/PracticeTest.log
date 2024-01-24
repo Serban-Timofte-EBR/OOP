@@ -1,0 +1,22 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(23,30): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(304,10): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(321,18): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(356,42): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(421,16): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(430,20): warning C4305: '=': truncation from 'double' to 'float'
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(431,20): warning C4305: '=': truncation from 'double' to 'float'
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(436,14): warning C4305: 'argument': truncation from 'double' to 'float'
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(560,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(194,37): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(268,7): message : see reference to function template instantiation 'void Taxi::set_kmPerRide<int>(T *,int)' being compiled
+          with
+          [
+              T=int
+          ]
+\\Mac\Home\Documents\Codes\OOP\PracticeTest\PracticeTest\main.cpp(364): warning C4172: returning address of local variable or temporary: dummy
+  PracticeTest.vcxproj -> \\Mac\Home\Documents\Codes\OOP\PracticeTest\ARM64\Debug\PracticeTest.exe

@@ -1,0 +1,4 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\AnalizaLaborator\AnalizaLaborator\main.cpp(79,23): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\AnalizaLaborator\AnalizaLaborator\main.cpp(107,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  AnalizaLaborator.vcxproj -> \\Mac\Home\Documents\Codes\OOP\AnalizaLaborator\ARM64\Debug\AnalizaLaborator.exe

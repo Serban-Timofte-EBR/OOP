@@ -1,0 +1,4 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\VagonPasageri2020\VagonPasageri2020\main.cpp(215,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\VagonPasageri2020\VagonPasageri2020\main.cpp(306,52): warning C4305: 'argument': truncation from 'double' to 'float'
+  VagonPasageri2020.vcxproj -> \\Mac\Home\Documents\Codes\OOP\VagonPasageri2020\ARM64\Debug\VagonPasageri2020.exe

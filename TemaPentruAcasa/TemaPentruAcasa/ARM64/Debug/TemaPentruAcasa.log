@@ -1,0 +1,4 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\TemaPentruAcasa\TemaPentruAcasa\main.cpp(93,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+\\Mac\Home\Documents\Codes\OOP\TemaPentruAcasa\TemaPentruAcasa\main.cpp(97,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  TemaPentruAcasa.vcxproj -> \\Mac\Home\Documents\Codes\OOP\TemaPentruAcasa\ARM64\Debug\TemaPentruAcasa.exe

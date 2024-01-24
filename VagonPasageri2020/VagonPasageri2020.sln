@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VagonPasageri2020", "VagonPasageri2020\VagonPasageri2020.vcxproj", "{A8FACAE0-44E4-4398-B296-E6C4126027DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|ARM64.Build.0 = Debug|ARM64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|x64.ActiveCfg = Debug|x64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|x64.Build.0 = Debug|x64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|x86.ActiveCfg = Debug|Win32
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Debug|x86.Build.0 = Debug|Win32
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|ARM64.ActiveCfg = Release|ARM64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|ARM64.Build.0 = Release|ARM64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|x64.ActiveCfg = Release|x64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|x64.Build.0 = Release|x64
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|x86.ActiveCfg = Release|Win32
+		{A8FACAE0-44E4-4398-B296-E6C4126027DC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B3D404B-4AE0-4316-B054-399DCA85A4F9}
+	EndGlobalSection
+EndGlobal

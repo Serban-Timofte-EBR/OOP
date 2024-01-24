@@ -1,0 +1,7 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\Week13\Week13\main.cpp(40,41): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  Week13.vcxproj -> \\Mac\Home\Documents\Codes\OOP\Week13\ARM64\Debug\Week13.exe

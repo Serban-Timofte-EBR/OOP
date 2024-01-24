@@ -1,0 +1,5 @@
+Raportul Vehiculului cu numere de inmatriculare: B 123 EBR B 225 OCH 
+Denumire: Ferrari 911 Turbo GT
+Tarif de baza: 124.42
+Capacitate: 2
+Numar Usi: 2

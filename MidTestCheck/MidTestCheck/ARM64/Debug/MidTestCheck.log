@@ -1,0 +1,4 @@
+﻿  main.cpp
+\\Mac\Home\Documents\Codes\OOP\MidTestCheck\MidTestCheck\main.cpp(67): warning C4715: 'CameraDigitala::getTip': not all control paths return a value
+\\Mac\Home\Documents\Codes\OOP\MidTestCheck\MidTestCheck\main.cpp(105): warning C4715: 'CameraDigitala::operator=': not all control paths return a value
+  MidTestCheck.vcxproj -> \\Mac\Home\Documents\Codes\OOP\MidTestCheck\ARM64\Debug\MidTestCheck.exe
